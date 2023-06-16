@@ -235,7 +235,7 @@ border-radius: 10px;
     padding: 2.2rem;
     height: 15vh;
     width: 15vw;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 #gallery .icon .fa-plus {
     font-size: 1.3rem;
