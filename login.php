@@ -22,8 +22,6 @@ if (isset($_POST['submit'])) {
         //CHECK IF USER EMAIL IS EQUAL TO RETRIEVED EMAIL AND USER PASSWORD IS EQUAL TO RETRIEVED PASSWORD
         if ($email == $retrievedEmail && $password == $retrievedPassword) {
             //REDIRECT USER TO BLOG PAGE
-            $alert = "showAlert('success', 'Logged in succesfully')";
-            sleep(3);
             header("location: ./blog.php");
             exit();
         } else {
@@ -72,9 +70,9 @@ if (isset($_POST['submit'])) {
                 <form action="" method="POST" autocomplete="off">
                     <div class="form-details">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                         <a href="#" style="text-align: right;">Forgot your password?</a>
                         <button type="submit" name="submit">Log In</button>
                     </div>
