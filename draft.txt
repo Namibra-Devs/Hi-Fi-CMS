@@ -1,3 +1,5 @@
  ('john@example.com', 'password123'),
   ('jane@example.com', 'secret456'),
   ('mark@example.com', 'secure789');
+
+  https://www.youtube.com/watch?v=KanRkHUrJew -- tiny editor
